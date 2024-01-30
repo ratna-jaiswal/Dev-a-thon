@@ -54,7 +54,9 @@ h1 img{
 }
 .footer{
     bottom: 0;
-    position: absolute;
+    /* position: absolute; */
+    /* position: relative; */
+    position: fixed;
 }
 h1,h2{
     color: orange;
@@ -106,7 +108,8 @@ input{
     border: 0px;
     border-bottom: 2px solid aliceblue;
     font-size: 1.1em;
-    size: 50w;
+    size: 80vw;
+    color: gold;
 }
 button{
     border: 4px solid orange;
@@ -119,21 +122,26 @@ button{
 }
 .fa{
     color: aliceblue;
-    font-size: 3vh !important;
+    font-size: 2vh !important;
     background-color: rgb(51, 0, 88);
-    border: 1px solid orange;
+    border: 1px solid aliceblue;
     border-radius: 50%;
     padding: 2vh;
-    box-shadow: 2px 2px 5px orange;
-    outline: 1px solid rgb(51, 0, 88);
+    box-shadow: 2px 2px 5px purple;
+    outline: 1px solid purple;
     outline-offset: 3px;
 }
 ul{
     display: flex;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 nav ul li{
     list-style: none;
-    padding: 2vw;
+    padding: 1vw;
 }
 .dat{
     font-family: "Single Day", cursive;
@@ -158,8 +166,4 @@ nav ul li{
     font-size: 1.1em;
     line-height: 1.5em;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
